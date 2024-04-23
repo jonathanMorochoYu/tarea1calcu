@@ -1,0 +1,73 @@
+.anchocalculadora {
+    width: 250px;
+    margin: 45px auto;
+    border: 5px solid rgb(101, 86, 238);
+    border-radius: 5px;
+    padding: 45px;
+    background-color: #da4f4f;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: inline;
+    grid-template-columns: repeat(4, 1fr );
+    grid-gap: 30px;
+}
+
+.buttons button {
+    padding: 30px 22px;
+    font-size: 25px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.buttons button:hover {
+    background-color: #17181a;
+}
+
+.botonPulsar{
+
+    padding: 10px 10px; /* Ajusta el tamaño del botón */
+    font-size: 10px; /* Tamaño del texto */
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    display: block; /* Para centrar horizontalmente */
+    margin: 0 auto; /* Centrado horizontal */
+
+
+}
+
+.botonPulsar:hover {
+    background-color: #cc0000; /* Cambio de color al pasar el ratón */
+}
+
+
+
+
+#botonfin {
+    padding: 20px 45px; /* Ajusta el tamaño del botón */
+    font-size: 24px; /* Tamaño del texto */
+    background-color: #030a0a; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    display: block; /* Para centrar horizontalmente */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+#botonfin:hover {
+    background-color: #3df546; /* Cambio de color al pasar el ratón */
+}
+

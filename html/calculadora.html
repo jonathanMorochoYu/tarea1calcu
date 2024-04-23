@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo calculadora</title>
+    <link rel="stylesheet" href="../css/cabecera.css">
+</head>
+<body>
+    <header>
+        <h1>                     Calculadora UPS                 </h1>
+        <nav>
+            <ul>
+                <li><a href="cabecera.html">Inicio</a></li>
+
+
+                <li>
+                    <a href="#">Operaciones Basicas</a>
+                    <ul>
+                        <li><a href="suma.html">Suma</a></li>
+                        <li><a href="resta.html">   . Resta</a></li>
+                        <li><a href="multiplicacion.html">Multiplicacion</a></li>
+                        <li><a href="division.html"> Division</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a href="sobre.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora pagina</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+    <div class="anchocalculadora">
+        <h2>Calculadora</h2>
+        <input type="text" class="display" id="display" readonly>
+        <div class="buttons">
+            <button onclick="addToDisplay('7')">7</button>
+            <button onclick="addToDisplay('8')">8</button>
+            <button onclick="addToDisplay('9')">9</button>
+            <button onclick="addToDisplay('+')">+</button>
+            <button onclick="addToDisplay('4')">4</button>
+            <button onclick="addToDisplay('5')">5</button>
+            <button onclick="addToDisplay('6')">6</button>
+            <button onclick="addToDisplay('-')">-</button>
+            <button onclick="addToDisplay('1')">1</button>
+            <button onclick="addToDisplay('2')">2</button>
+            <button onclick="addToDisplay('3')">3</button>
+            <button onclick="addToDisplay('*')">*</button>
+            <button onclick="addToDisplay('0')">0</button>
+            <button onclick="addToDisplay('.')">.</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="addToDisplay('/')">/</button>
+
+           <button id="botonfin"onclick="calcular()">=</button>
+
+
+        </div>
+        
+
+    </div>
+
+  
+    <script src="../js/calcu.js"></script>
+
+    <footer>
+        <p>Jonathan Israel Morocho Yuquilema &copy; 2024 | Trabajo calculadora UPS</p>
+    </footer>
+</body>
+</html>
